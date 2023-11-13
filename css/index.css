@@ -20,20 +20,20 @@
 }
 
 .contein-1 h1{text-transform: uppercase;}
-.contein-1 h1, p, button{
-    margin: 2rem 0 0 1rem;
+.contein-1 h1, p, a{
+    margin: 1rem 0 0 1rem;
     color: var(--cor-paletaCor06);
 }
 
-.contein-1 button{
+.button{
     border: 3px solid var(--cor-paletaCor01);
     background-color: var(--cor-paletaCor03);
     padding: 1rem 2rem;
     border-radius: 3rem;
     cursor: pointer;
+    text-decoration: none; 
+    color: var(--cor-paletaCor01);
 }
-
-.contein-1 button a{text-decoration: none; color: var(--cor-paletaCor01);}
 
 #img-contein{padding: 2rem;}
 
