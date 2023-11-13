@@ -47,7 +47,7 @@
 .img-bio02{
     grid-column: 4;
     grid-row: 5 / 7;
-    margin-top: 1.1rem;
+    margin-top: 3.5rem;
 }
 
 .paragrafo-01, .paragrafo-02, .paragrafo-03{grid-column: 3 / 5;}
