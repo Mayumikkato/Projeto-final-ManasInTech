@@ -33,9 +33,9 @@
     grid-template-columns: 0.1fr 1.5fr 0.1fr;
 }
 
-.card-1 h2, .card-2 h2, .card-3 h2{margin: 2rem 0 0; grid-column: 2;}
+.card-1 h2, .card-2 h2, .card-3 h2{margin: 2rem 0 0; grid-column: 2; margin: 2rem;}
 
-.card-1 p, .card-2 p, .card-3 p{color: var(--cor-paletaCor06); grid-column: 2; margin-left: 0;}
+.card-1 p, .card-2 p, .card-3 p{color: var(--cor-paletaCor06); grid-column: 2; margin-left: 0; margin: 0 2rem;}
 
 iframe{grid-column: 2; margin: 2rem 5rem; border-radius: 10px;}
 
