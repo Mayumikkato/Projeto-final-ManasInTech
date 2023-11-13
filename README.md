@@ -1,6 +1,8 @@
 # Projeto final - ManasInTech
 Site desenvolvido para o projeto final do curso Manas In Tech Programação Web para iniciante da Womakercode, na qual o desafio era criar um site sobre uma mulher importante na tecnologia.
 
+:arrow_right: [Clique aqui](https://mayumikkato.github.io/Projeto-final-ManasInTech/) para ver o resultado final. :blush:
+
 ## Integrante:
 <a href="https://www.linkedin.com/in/fernanda-mayumi-kuba-kato/"> Fernanda Mayumi Kuba Kato </a><br>
 
