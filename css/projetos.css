@@ -1,0 +1,68 @@
+/* Estilo da página Projetos */
+.titulo-projeto{
+    display: flex;
+    padding: 2rem;
+    font-size: 50px;
+    text-align: center;
+    color: var(--cor-paletaCor01);
+    transform: rotate(-12deg);
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 0 0 0 60rem;
+    padding: 0 12rem;
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.titulo-projeto h1{text-shadow: 2px 2px 2px var(--cor-paletaCor03);}
+
+.jogos{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    margin-top: 3rem;
+}
+
+.card-1, .card-2, .card-3{
+    background-color: var(--cor-paletaCor02);
+    margin: 2rem 0; 
+    text-align: justify;
+    border-radius: 10px;
+    grid-column: 2;
+    display: grid; 
+    grid-template-columns: 0.1fr 1.5fr 0.1fr;
+}
+
+.card-1 h2, .card-2 h2, .card-3 h2{margin: 2rem 0 0; grid-column: 2;}
+
+.card-1 p, .card-2 p, .card-3 p{color: var(--cor-paletaCor06); grid-column: 2; margin-left: 0;}
+
+iframe{grid-column: 2; margin: 2rem 5rem; border-radius: 10px;}
+
+
+/* Media Queries - responsivo: Página Projetos */
+@media screen and (max-width: 768px){
+    .container{max-width: 1000px;}
+
+    body{background-image: none;}
+
+    .titulo-projeto{margin: -1.5rem 0; padding: 0 1rem;}
+
+    .jogos{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card-1, .card-2, .card-3{
+        grid-column: 1;
+        display: grid; 
+        grid-template-columns: 1fr;
+        margin: 1rem;
+    }
+
+    .card-1 h2, .card-2 h2, .card-3 h2, iframe{grid-column: 1; margin: 2rem;}
+
+    .card-1 p, .card-2 p, .card-3 p{grid-column: 1; margin: 0 2rem;}
+
+
+}

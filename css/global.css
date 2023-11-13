@@ -1,0 +1,36 @@
+/* Import da font do site */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:wght@200;400;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,600&display=swap');
+
+/* Estilo universal */
+*{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo do corpo do site */
+body{
+    background-image: url('https://4650993.fs1.hubspotusercontent-na1.net/hub/4650993/women-in-tech-carol-shaw.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-color: var(--cor-paletaCor05);
+}
+
+/* Estilo dos títulos H1 e H2 */
+h1{font-size: 24px;}
+
+h2{color: var(--cor-paletaCor06);}
+
+/* Estilo dos paragráfos e botão */
+p, button{font-size: 22px;}
+
+/* Paletas de cores */
+:root{
+    --cor-paletaCor01: #ffffff;
+    --cor-paletaCor02:  #ffffff99;
+    --cor-paletaCor03: #fe7826;
+    --cor-paletaCor04: #fba51a80;
+    --cor-paletaCor05: #ffa743;
+    --cor-paletaCor06: #1c1202;
+}

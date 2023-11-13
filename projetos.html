@@ -1,0 +1,77 @@
+<!-- Declaração para documentos HTML5  -->
+<!DOCTYPE html>
+<!-- Início da tag html - linguagem: português brasileiro  -->
+<html lang="pt-br">
+
+<!-- Início do Head -->
+<head>
+    <!-- Início das tags meta  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fernanda Kato">
+    <meta name="description" content="Esta aplicação web é um projeto final do curso Manas in Tech Programação Web para Iniciantes, na qual o objetivo é criar um site de uma mulher que foi ou é importante e fez história na tecnológia">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript, Programação Web, Manas in Tech, Womakerscode">
+    <!-- Fim das tags meta  -->
+    <!-- Referencia arquivos externos da biblioteca Font Awesome da versão 5.15.3  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Referencia o arquivo de estilos do CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Referencia o arquivo do favicon  -->
+    <link rel="icon" href="favicon/favicon.ico">
+    <!-- Título do site  -->
+    <title>Carol Shaw</title>
+</head>
+<!-- Fim do Head  -->
+
+<!-- Início do Body  -->
+<body>
+    <div class="container">
+        <!-- Início do header -->
+        <header>
+            <nav class="nav-menu">
+                <span role="button" aria-label='Abrir Menu' id="hamburguer-menu" aria-haspopup='true' aria-expanded="false"></span>
+                <ul class="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="biografia.html">Biografia</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Fim do header -->
+        <!-- Início do main -->
+        <main>
+            <!-- Início do contêiner do título da página -->
+            <div class="titulo-projeto">
+                <h1>Projetos</h1>
+                <img src="imagens/icon-atari.png" alt="Icon do Atari 2600">
+            </div>
+            <!-- Fim do contêiner do título da página -->
+            <!-- Início do contêiner dos cards -->
+            <div class="jogos">
+                <div class="card-1">
+                    <h2>3-D Tic-Tac-Toe (1980)</h2>
+                    <p>É uma adaptação tridimensional do clássico jogo da velha. Criado por Carol Shaw para o console Atari 2600, o jogo oferece uma reviravolta interessante, introduzindo três planos de jogo empilhados. Os jogadores tentam vencer formando linhas em qualquer direção através dos diferentes níveis, acrescentando uma complexidade única ao tradicional jogo de estratégia.</p>
+                    <iframe width="670" height="425" src="https://www.youtube.com/embed/berkFO75_7A?si=dp_MvMb_umlZwc2b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="card-2">
+                    <h2>River Raid (1982)</h2>
+                    <p>Icônico jogo de tiro com deslocamento lateral lançado para o Atari 2600. Na qual, o jogador assume o controle de uma aeronave que deve navegar por um rio cheio de obstáculos, destruindo alvos inimigos. O jogo foi notável pela suavidade de sua jogabilidade, gráficos avançados para a época e desafios progressivamente intensos, tornando-se um clássico da era dos 8 bits.</p>
+                    <iframe width="670" height="425" src="https://www.youtube.com/embed/ilxm5hLB_rE?si=UBUiz4rRRoACY0A-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="card-3">
+                    <h2>Happy Trails (1983)</h2>
+                    <p>Jogo de quebra-cabeça desenvolvido por Carol Shaw durante seu tempo na Activision. O jogador controla um personagem que deve percorrer um labirinto, pintando cada segmento do caminho antes de passar para o próximo nível. O desafio reside na resolução estratégica de quebra-cabeças para evitar ficar sem tinta antes de completar o labirinto. Apresentando mecânicas únicas, "Happy Trails" demonstrou a versatilidade de Shaw em diferentes gêneros de jogos.</p>
+                    <iframe width="670" height="425" src="https://www.youtube.com/embed/dkEPrPGakCg?si=wK443oIcjLs_A_SB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- Fim do contêiner dos cards -->
+        </main>
+        <!-- Fim do main -->
+    </div>
+    <script src="/javascript/menu-hamburguer.js"></script>
+</body>
+<!-- Fim do body  -->
+
+</html>
+<!-- Fim da tag html  -->

@@ -1,0 +1,102 @@
+/* Estilo da página Biografia */
+.titulo-bio{
+    display: flex;
+    padding: 2rem;
+    font-size: 50px;
+    text-align: center;
+    color: var(--cor-paletaCor01);
+    transform: rotate(-12deg);
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 0 0 0 60rem;
+    padding: 0 12rem;
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.titulo-bio h1{text-shadow: 2px 2px 2px var(--cor-paletaCor03);}
+
+.contein-biografia{
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.3fr 0.4fr 0.4fr 0.6fr 0.3fr 0.3fr;
+    margin: 2rem 5rem;
+}
+
+.contein-biografia p{
+    background-color: var(--cor-paletaCor02);
+    padding: 2rem;
+    text-align: justify;
+    color: var(--cor-paletaCor06);
+    word-spacing: 2;
+    border-radius: 10px;
+}
+
+.img-bio01, .img-bio02{border-radius: 20px; margin: 0 2rem;}
+
+.img-bio01{
+    grid-column: 2;
+    grid-row: 1 / 3;
+    width: 550px;
+    height: auto;
+    margin-top: -0.6rem ;
+}
+
+.img-bio02{
+    grid-column: 4;
+    grid-row: 5 / 7;
+    margin-top: 1.1rem;
+}
+
+.paragrafo-01, .paragrafo-02, .paragrafo-03{grid-column: 3 / 5;}
+.paragrafo-04, .paragrafo-05{grid-column: 2 / 4;}
+.paragrafo-01{grid-row: 1;}
+.paragrafo-02{grid-row: 2;}
+.paragrafo-03{grid-row: 3;}
+.paragrafo-04{grid-row: 5;}
+.paragrafo-05{grid-row: 6;}
+
+
+
+/* Media Queries - responsivo: Página Biografia */
+@media screen and (max-width: 768px){
+    .container{max-width: 1000px;}
+
+    body{background-image: none;}
+
+    .titulo-bio{margin: 0 0 0.5rem -8rem; padding: 0 9rem;}
+
+    .contein-biografia{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 0.3fr);
+        margin: 0; 
+    }
+
+    .img-bio01{
+        grid-column: 1;
+        grid-row: 2;
+        width: 550px;
+        height: auto;
+        margin: 1rem 0 1rem 5rem;
+    }
+    
+    .img-bio02{
+        grid-column: 1;
+        grid-row: 5;
+        margin-bottom: 1rem;
+        width: 650px;
+    }
+    
+    .paragrafo-01, .paragrafo-02, .paragrafo-03, .paragrafo-04, .paragrafo-05{grid-column: 1;}
+    
+    .paragrafo-01{grid-row: 1;}
+    .paragrafo-02{grid-row: 3;}
+    .paragrafo-03{grid-row: 4;}
+    .paragrafo-04{grid-row: 6;}
+    .paragrafo-05{grid-row: 7;}
+
+}
+

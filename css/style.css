@@ -1,0 +1,19 @@
+/* Estilo global */
+@import url('global.css');
+
+/* Estilo do Header */
+@import url('header.css');
+
+/* Estilo da página Index */
+@import url('index.css');
+
+/* Estilo da página Biografia */
+@import url('biografia.css');
+
+/* Estilo da página Projetos */
+@import url('projetos.css');
+
+
+
+
+
